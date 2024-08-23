@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+        <style>
+            .para{
+                border: 10px;
+                font-size: medium;
+
+            }
+            div{
+                background-color: lightgrey;
+                width: 500px;
+                border: 2px solid black;
+                padding:50px
+            }
+        </style>
+    <body class="para">
+        <h3 style="color: blue;"> Registeration form</h3>
+        <div>
+        <form>
+            <label for = "fname">Firstname :</label>
+            <input type = "text" id = "fname" value = ""><br><br>
+            <label for = "lname">Lastname :</label>
+            <input type = "text" id = "lname" value = ""><br><br>
+            <label for = "email">E-mail :</label>
+            <input type = "text" id = "email" value = "" required><br><br>
+            <label for = "gen">Gender</label><br>
+            <input type = "radio" id = "male" name =  "gender of a person" value ="Male">
+            <label for = "male">Male</label><br>
+            <input type = "radio" id = "Female"  name =  "gender of a person" value ="Female">
+            <label for = "male">Female</label><br>
+            <input type = "radio" id = "others" name =  "gender of a person" value ="Others">
+            <label for = "others">Others</label><br>
+            <label for = "password">Password :</label><br>
+            <input type = "text" id = "password" name = "password" value = ""><br>
+            <label for = "confirm password">Confirm Password :</label><br>
+            <input type = "text" id = "confirm password" name = "comfirm" value = ""><br><br>
+            <input style="background-color: green;" = "submit" value = "Submit">
+        </form>
+    </div>
+
+    </body>
+</html>
